@@ -1,1 +1,27 @@
+body {
+    margin: 0;
+}
 
+h1 {
+    margin-top: 0;
+}
+
+.topContainer {
+    background-color: #73fae8;
+}
+
+.middleContainer {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+
+.bottomContainer {
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+}
+
+.pro {
+    text-decoration: underline;
+}
