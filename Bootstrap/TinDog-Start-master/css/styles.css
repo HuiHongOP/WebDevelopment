@@ -1,6 +1,5 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    color:
 }
 
 #title {
@@ -49,4 +48,11 @@ h1 {
 
 .download-button {
     margin: 5% 3% 5% 2%;
+}
+
+
+/* center the features */
+
+.center-feature {
+    text-align: center;
 }
