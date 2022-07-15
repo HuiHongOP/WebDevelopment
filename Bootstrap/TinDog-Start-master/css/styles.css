@@ -32,7 +32,9 @@ p {
 
 .rotate-img {
     transform: rotate(25deg);
-    width: 50%;
+    width: 400px;
+    position: absolute;
+    right: 30%;
 }
 
 
@@ -68,6 +70,9 @@ p {
 
 #features {
     padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+    background-color: white;
 }
 
 .feature-box {
