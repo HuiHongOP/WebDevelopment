@@ -1,33 +1,36 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
-#title {
-    background-color: #ff4c68;
-    color: #fff;
-}
+
+/* Container Fluid */
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 7% 15%;
 }
 
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
-
-h2 {
-    font-family: 'Montserrat', sans-serif;
-    line-height: 1.5;
-}
-
-h3 {
+h1,
+h2,
+h3,
+h5,
+h6 {
     font-family: 'Montserrat', sans-serif;
 }
 
 p {
     color: gray;
+}
+
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
 }
 
 .rotate-img {
@@ -59,6 +62,26 @@ p {
 }
 
 
+/* Background Sections */
+
+.color-section{
+    background-color: #ff4c68;
+    color:white;
+}
+.white-section{
+    background-color: white;
+}
+
+
+
+/* Title Section */
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+
 /* Download Buttons */
 
 .download-button {
@@ -69,15 +92,16 @@ p {
 /* the features */
 
 #features {
-    padding: 7% 15%;
     position: relative;
     z-index: 1;
-    background-color: white;
 }
 
 .feature-box {
-    text-align: center;
     padding: 5%;
+}
+
+.feature-title {
+    font-size: 1.5rem;
 }
 
 
@@ -95,15 +119,10 @@ p {
 
 /* Testimonials Section */
 
-#testimonials {
-    padding: 7% 15%;
-    text-align: center;
-    background-color: #ff4c68;
-    color: white;
-}
 
-.carousel-item {
-    padding: 7% 15%;
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .testimonial-image {
@@ -113,8 +132,6 @@ p {
 }
 
 #press {
-    background-color: #ff4c68;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -128,9 +145,25 @@ p {
 
 #pricing {
     padding: 100px;
-    text-align: center;
 }
 
 .pricing-column {
     padding: 3% 4%;
+}
+
+.price-tag {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .rotate-img {
+        transform: rotate(25deg);
+        width: 400px;
+        position: static;
+        transform: rotate(0);
+    }
 }
