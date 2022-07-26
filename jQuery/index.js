@@ -1,4 +1,3 @@
-//Wait until the jquery loads up first
-$(document).ready(function(){
-    $("h1").css("color","red");
+$("h1").click(function(){
+    $("h1").css("color","purple");
 })
